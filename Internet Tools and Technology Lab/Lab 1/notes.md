@@ -3,7 +3,6 @@
 - tags = keywords surrounded by angular brackets
 - elements = <start_tag>content<end_tag>
 - attributes = additional info about the element = \<tag attributename="value">content \</tag>
-- 
 
 
 tag/attribute | function
