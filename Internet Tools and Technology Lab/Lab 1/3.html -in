@@ -1,0 +1,47 @@
+<!--Source: https://www.javatpoint.com/html-registration-form -->
+
+<html>
+    <head>
+        <title>Registration Page</title>
+    </head>
+    <body bgcolor="lightskyblue">
+        <br>
+        <form>
+            <label>Firstname</label>
+            <input type="text" name="firstname" size="15">
+
+            <label>Middlename</label>
+            <input type="text" name="middlename" size="15">
+
+            <label>Lastname</label>
+            <input type="text" name="lastname" size="15">
+
+            <label>Course:</label>
+            <select>
+                <option value="Course">Course</option>
+                <option value="Course">BCA</option>
+                <option value="Course">BBA</option>
+                <option value="Course">B.Tech</option>
+                <option value="Course">MBA</option>
+                <option value="Course">MCA</option>
+                <option value="Course">M.Tech</option>
+            </select>
+
+            <br><br>
+            <label>Gender</label>
+            <input type="radio" name="male">Male<br>
+            <input type="radio" name="female">Female<br>
+            <input type="radio" name="other">Other<br>
+            <br>
+
+            <label>Phone:</label>
+            <input type="text" name="country code" value="+91" size="2">
+            <input type="text" name="phone" value="10">
+            <br><br>
+
+            <label>Address</label>
+            
+        </form>
+
+    </body>
+</html>
