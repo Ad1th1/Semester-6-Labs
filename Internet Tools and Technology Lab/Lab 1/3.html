@@ -9,13 +9,13 @@
         <form>
             <label>Firstname</label>
             <input type="text" name="firstname" size="15">
-
+            <br>
             <label>Middlename</label>
             <input type="text" name="middlename" size="15">
-
+            <br>
             <label>Lastname</label>
             <input type="text" name="lastname" size="15">
-
+            <br>
             <label>Course:</label>
             <select>
                 <option value="Course">Course</option>
@@ -28,7 +28,7 @@
             </select>
 
             <br><br>
-            <label>Gender</label>
+            <label>Gender</label><br>
             <input type="radio" name="male">Male<br>
             <input type="radio" name="female">Female<br>
             <input type="radio" name="other">Other<br>
@@ -40,8 +40,24 @@
             <br><br>
 
             <label>Address</label>
-            
-        </form>
+            <br>
+            <textarea cols="80" rows="5" value="address">
+            </textarea>
+            <br><br>
 
+            <label>Email:</label>
+            <input type="email" id="email" name="email"/>
+            <br><br><br>
+
+            <label>Password:</label>
+            <input type="password" id="password" name="password"/>
+            <br><br><br>
+
+            <label>Retype Password:</label>
+            <input type="password" id="repass" name="repass"/>
+            <br><br><br>
+
+            <input type="button" value="Submit"/>
+        </form>
     </body>
 </html>
