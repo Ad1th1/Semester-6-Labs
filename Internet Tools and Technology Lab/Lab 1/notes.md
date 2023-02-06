@@ -3,6 +3,16 @@
 - tags = keywords surrounded by angular brackets
 - elements = <start_tag>content<end_tag>
 - attributes = additional info about the element = \<tag attributename="value">content \</tag>
+- XHTML is a stricter version of HTML
+  - \<!DOCTYPE> is mandatory
+  - The xmlns attribute in <html> is mandatory
+  - \<html>, \<head>, <title>, and \<body> are mandatory
+  - Elements must always be properly nested
+  - Elements must always be closed
+  - Elements must always be in lowercase
+  - Attribute names must always be in lowercase
+  - Attribute values must always be quoted
+  - Attribute minimization is forbidden
 
 
 tag/attribute | function
