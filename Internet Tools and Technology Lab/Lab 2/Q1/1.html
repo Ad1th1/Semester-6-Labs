@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Map Example</title>
+</head>
+<body>
+
+  <h1>My Institute Image Map</h1>
+  <p>Click on a department to learn more:</p>
+
+  <img src="institute.jpg" usemap="#institute-map" />
+
+  <map name="institute-map">
+    <area shape="rect" coords="50,50,200,150" alt="Computer Science" onclick="showInfo('Computer Science', 'cs.html')" />
+    <area shape="rect" coords="250,50,400,150" alt="Mathematics" onclick="showInfo('Mathematics', 'math.html')" />
+    <area shape="rect" coords="450,50,600,150" alt="Physics" onclick="showInfo('Physics', 'phy.html')" />
+  </map>
+
+  <script>
+    function showInfo(dept, url) {
+      window.status = dept;
+      window.location.href = url;
+    }
+  </script>
+
+</body>
+</html>
